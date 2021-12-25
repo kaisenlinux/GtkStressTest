@@ -1,0 +1,10 @@
+#!/usr/bin/make -f
+
+%:
+	dh $@ --buildsystem=meson
+
+override_dh_auto_install:
+	dh_auto_install
+	rm -r debian/gtkstresstesting/usr/share/applications
+	mv debian/gtkstresstesting/usr/bin/gst debian/gtkstresstesting/usr/bin/gtkstresstesting
+	cp data/icons/hicolor/256x256@2x/apps/com.leinardi.gst.png debian/gtkstresstesting/usr/share/icons/gtkstresstesting.png

@@ -1,0 +1,45 @@
+Source: gtkstresstesting
+Section: x11
+Priority: optional
+Maintainer: Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>
+Build-Depends: debhelper-compat (= 13),
+	       meson,
+	       python3,
+	       python3-humanfriendly,
+	       python3-injector,
+	       python3-peewee,
+	       python3-xdg,
+	       python3-yaml,
+	       python3-requests,
+	       python3-rx,
+	       gobject-introspection,
+	       pkg-config,
+	       libgirepository1.0-dev,
+	       ninja-build,
+	       appstream-util,
+	       lm-sensors,
+	       stress-ng,
+	       dmidecode,
+Standards-Version: 4.6.0
+Homepage: https://gitlab.com/leinardi/gst
+Vcs-Browser: https://gitlab.com/kaisenlinux/packages/gtkstresstesting
+Vcs-Git: https://gitlab.com/kaisenlinux/packages/gtkstresstesting.git
+Rules-Requires-Root: no
+
+Package: gtkstresstesting
+Architecture: any
+Depends: ${shlibs:Depends},
+	 ${misc:Depends},
+	 python3,
+         python3-humanfriendly,
+         python3-injector,
+         python3-peewee,
+         python3-xdg,
+         python3-yaml,
+         python3-requests,
+         python3-rx,
+         gobject-introspection,
+	 lm-sensors,
+         stress-ng,
+         dmidecode,
+Description: GTK system utility designed to stress and monitor various hardware components like CPU and RAM

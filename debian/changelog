@@ -1,0 +1,5 @@
+gtkstresstesting (0.7.5-1kaisen) kaisen-packages; urgency=medium
+
+  * First packaging for Kaisen Linux
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Sat, 25 Dec 2021 19:37:19 +0100
