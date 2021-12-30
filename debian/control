@@ -42,4 +42,5 @@ Depends: ${shlibs:Depends},
 	 lm-sensors,
          stress-ng,
          dmidecode,
+	 gir1.2-gstreamer-1.0,
 Description: GTK system utility designed to stress and monitor various hardware components like CPU and RAM

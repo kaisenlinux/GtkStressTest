@@ -1,1 +1,1 @@
-debian/org.gtkstresstesting.policy usr/share/polkit-1/actions/
+debian/org.kaisen.gtkstresstesting.policy usr/share/polkit-1/actions/

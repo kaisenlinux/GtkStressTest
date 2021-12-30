@@ -1,3 +1,11 @@
+gtkstresstesting (0.7.5-2kaisen) kaisen-packages; urgency=medium
+
+  * Add gir1.2-gstreamer-1.0 ad dependancy
+  * Add uppercase in polkit
+  * Rename polkit filename
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Thu, 30 Dec 2021 20:45:06 +0100
+
 gtkstresstesting (0.7.5-1kaisen) kaisen-packages; urgency=medium
 
   * First packaging for Kaisen Linux
