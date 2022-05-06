@@ -7,4 +7,7 @@ override_dh_auto_install:
 	dh_auto_install
 	rm -r debian/gtkstresstesting/usr/share/applications
 	mv debian/gtkstresstesting/usr/bin/gst debian/gtkstresstesting/usr/bin/gtkstresstesting
+	mv debian/gtkstresstesting/usr/local/lib debian/gtkstresstesting/usr/
 	cp data/icons/hicolor/256x256@2x/apps/com.leinardi.gst.png debian/gtkstresstesting/usr/share/icons/gtkstresstesting.png
+
+override_dh_usrlocal:

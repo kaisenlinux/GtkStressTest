@@ -1,8 +1,0 @@
-# GtkStressTesting (GST) flatpak configuration
-This repository has the only purpose of holding the flatpak configuration of GST.
-
-If you want to open an issue or submit a patch for GST, please use the official issue tracker:
-https://gitlab.com/leinardi/gst/issues
-
-Instead, if you want to report an issue related to the GST's flatpak manifest or anything else
-included in this repository, feel free to use the issue tracker or open a  pull request here. 
